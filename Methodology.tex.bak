@@ -1,0 +1,20 @@
+\chapter{Methodology}
+I did things.
+\section{Proposed methodology}
+	\subsection{Finite Element Model}
+	A one-dimensional finite element model that simulates what we expect to obtain from the fire tests based on the simplified K-values provided in EN 1995:1-1-2004 will be modified into a function.
+	 This function should provide the temperature of the modelled element based on a specified location and thermal conductivity.
+	\subsection{Optimization}
+	\subsection{Markov Chain Monte Carlo}
+	Markov Chain Monte Carlo(MCMC) is a method of integration. This will be used to determine the mean of the k-values at specific temperatures. 
+	Markov Chain Monte Carlo is a method that was created by combining the concept of Monte Carlo sampling  and a Markov Chain. 
+	To fully understand MCMC the methods that it was created from need to be further investigated.
+		\subsubsection{Markov Chains}
+		
+		
+		
+		\subsubsection{Monte Carlo Integration}
+		Monte Carlo integration is used to evaluate a probability distributuion. 
+		The evaluation is done by drawing a collection of random numbers from the distribution.
+		These numbers are then used a the sample and a sample mean is taken.
+		The arithmetic sample mean can be used to approximate the population mean in accordance with the law of large numbers \citep{Gilks:1996} 

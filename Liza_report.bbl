@@ -1,4 +1,4 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{5}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \expandafter\ifx\csname bibnamefont\endcsname\relax
   \def\bibnamefont#1{#1}\fi
@@ -18,6 +18,12 @@
 \newcommand{\Capitalize}[1]{\uppercase{#1}}
 \newcommand{\capitalize}[1]{\expandafter\Capitalize#1}
 \providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[{\citenamefont{CEN}(2004)}]{Euro:2004}
+\bibnamefont{CEN} (2004).
+\newblock \emph{BS EN 1995-1-2:2004. Eurocode 5: Design of timber structures -
+  General - Structural fire design.}
+\newblock BSI, London.
 
 \bibitem[{\citenamefont{Fish}(2007)}]{Fish:2007}
 \bibnamefont{Fish}, \bibfnamefont{J.J.} (2007).
